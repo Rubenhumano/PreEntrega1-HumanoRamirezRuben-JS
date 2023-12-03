@@ -1,7 +1,11 @@
+// Este programa gestiona las reservas de mesas en un restaurante.
+
 let mesa1 = 8;
 let mesa2 = 8;
 let mesa3 = 8;
 let mesa4 = 8;
+
+alert("PROGRAMA DE GESTIÓN DE RESERVAS")
 
 function preguntaMesa() {
   let mesaSolicitada = parseInt(prompt("¿En qué mesa estaría deseando ubicarse?\n- 1\n- 2\n- 3\n- 4"));
